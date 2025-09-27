@@ -129,6 +129,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.venv*
+.env_recsys_start
+env_recsys_start/
+.venv*
 
 # Spyder project settings
 .spyderproject
