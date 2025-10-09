@@ -170,4 +170,5 @@ cython_debug/
 *.pickle
 
 # project environment
-env_recsys_start/
+env_recsys_start/als_model_improved.pkl
+user_item_matrix_improved.npz
