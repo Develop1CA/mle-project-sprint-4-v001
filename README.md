@@ -46,6 +46,26 @@ source env_recsys_start/bin/activate  # для Linux/Mac
 bash
 pip install -r requirements.txt
 Подготовка данных
+
+Для начала работы понадобится три файла с данными:
+- [tracks.parquet](https://storage.yandexcloud.net/mle-data/ym/tracks.parquet)
+- [catalog_names.parquet](https://storage.yandexcloud.net/mle-data/ym/catalog_names.parquet)
+- [interactions.parquet](https://storage.yandexcloud.net/mle-data/ym/interactions.parquet)
+ 
+Скачайте их в директорию локального репозитория. Для удобства вы можете воспользоваться командой wget:
+
+```
+wget https://storage.yandexcloud.net/mle-data/ym/tracks.parquet
+
+wget https://storage.yandexcloud.net/mle-data/ym/catalog_names.parquet
+
+wget https://storage.yandexcloud.net/mle-data/ym/interactions.parquet
+```
+
+Обученную модель и матрицу взаимодействий можно скачать по ссылке и поместить в корень проекта:
+- [Модель и матрица, encoders.pkl](https://disk.yandex.ru/d/huLR2TyGUwmf7w)
+
+
 Убедитесь, что в директории проекта присутствуют необходимые файлы:
 
 *.pkl - обученные модели (ALS модель)
