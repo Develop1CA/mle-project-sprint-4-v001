@@ -177,3 +177,5 @@ user_item_matrix.npz
 als_model.pkl
 user_item_matrix.npz
 als_model_improved.pkl
+.git.bfg-report/
+bfg-*.jar
