@@ -172,3 +172,7 @@ cython_debug/
 # project environment
 env_recsys_start/als_model_improved.pkl
 user_item_matrix_improved.npz
+als_model.pkl
+user_item_matrix.npz
+als_model.pkl
+user_item_matrix.npz
