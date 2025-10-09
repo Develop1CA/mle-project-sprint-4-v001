@@ -131,17 +131,16 @@ ReDoc: http://localhost:8000/redoc
  
 Структура проекта
 mle-project-sprint-4-v001/
-├── recommendations_service.py # FastAPI микросервис
-├── test_service.py # Тесты микросервиса
-├── recommendations.ipynb # Ноутбук с исследованиями
-├── create_mappings.py # Создание маппингов
-├── debug_service.py # Диагностика сервиса
-├── quick_check_ru.py # Быстрая проверка
-├── final_check_ru.py # Финальная проверка
-├── requirements.txt # Зависимости Python
-├── data/
-│ └── online_history.json # Онлайн-история пользователей
-└── *.pkl, *.npz # Модели и данные (в .gitignore)
+- recommendations_service.py - FastAPI микросервис
+- test_service.py - Тесты микросервиса
+- recommendations.ipynb - Ноутбук с исследованиями
+- create_mappings.py - Создание маппингов
+- debug_service.py - Диагностика сервиса
+- quick_check_ru.py - Быстрая проверка
+- final_check_ru.py - Финальная проверка
+- requirements.txt - Зависимости Python
+- data/online_history.json - Онлайн-история пользователей
+- *.pkl, *.npz - Модели и данные (в .gitignore)
 
 Особенности реализации
 Отказоустойчивость: Fallback на популярные треки при ошибках
