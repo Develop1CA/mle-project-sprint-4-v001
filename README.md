@@ -128,7 +128,7 @@ curl http://localhost:8000/api/user/1/history
 Swagger UI: http://localhost:8000/docs
 
 ReDoc: http://localhost:8000/redoc
-
+ 
 Структура проекта
 text
 ├── app/
