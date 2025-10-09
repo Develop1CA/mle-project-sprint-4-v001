@@ -36,9 +36,10 @@ markdown
 git clone https://github.com/Develop1CA/mle-project-sprint-4-v001.git
 или git clone git@github.com:Develop1CA/mle-project-sprint-4-v001.git
 cd mle-project-sprint-4-v001
+```
 Активируйте виртуальное окружение
 Используйте виртуальное окружение, созданное для работы с уроками. Если его не существует, создайте новое:
-
+```bash
 bash
 python3 -m venv env_recsys_start
 source env_recsys_start/bin/activate  # для Linux/Mac
@@ -46,7 +47,7 @@ source env_recsys_start/bin/activate  # для Linux/Mac
 bash
 pip install -r requirements.txt
 Подготовка данных
-
+```
 Для начала работы понадобится три файла с данными:
 - [tracks.parquet](https://storage.yandexcloud.net/mle-data/ym/tracks.parquet)
 - [catalog_names.parquet](https://storage.yandexcloud.net/mle-data/ym/catalog_names.parquet)
